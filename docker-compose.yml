@@ -1,7 +1,0 @@
-version: '3.4'
-
-services:
-  netatmo2influxdb:
-    build: .
-    volumes: 
-      - .:/usr/src/app
