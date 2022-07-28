@@ -1,0 +1,11 @@
+interval: 300
+logfile: ble_collect.log
+
+influxdb:
+  user: username
+  password: password
+  host: 127.0.0.1
+  port: 8086
+  dbname: temperaturedb
+  measurename: mija
+
